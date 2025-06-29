@@ -12,9 +12,9 @@ const HeroSection = () => (
     transition={{ duration: 1 }}
     className="flex flex-col items-center gap-10 md:ml-4 md:flex-row md:gap-96"
   >
-    <div className="md:order-1">
-      {/* <img src={profilePicture} alt="profile" className="h-64 rounded-full md:h-80" /> */}
-    </div>
+    // <div className="md:order-1">
+    //   {/* <img src={profilePicture} alt="profile" className="h-64 rounded-full md:h-80" /> */}
+    // </div>
     <div className="text-skyColor">
       <p className="text-base text-secondaryColor">Hello!</p>
       <h1 className="text-4xl text-secondaryColor md:text-5xl">I&apos;m Iqra Aslam</h1>
