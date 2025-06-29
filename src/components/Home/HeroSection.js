@@ -1,7 +1,7 @@
 import { CheckCircleIcon } from '@heroicons/react/solid';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import profilePicture from '../../assets/images/profilePicture.jpg';
+// import profilePicture from '../../assets/images/profilePicture.jpg';
 
 const fields = ['Full Stack web & mobile developer', 'Love for clean code', 'Onsite work SabaSoft', 'BlockChain Web Developer'];
 
@@ -12,9 +12,9 @@ const HeroSection = () => (
     transition={{ duration: 1 }}
     className="flex flex-col items-center gap-10 md:ml-4 md:flex-row md:gap-96"
   >
-    // <div className="md:order-1">
-    //   {/* <img src={profilePicture} alt="profile" className="h-64 rounded-full md:h-80" /> */}
-    // </div>
+    <div className="md:order-1">
+      {/* <img src={profilePicture} alt="profile" className="h-64 rounded-full md:h-80" /> */}
+    </div>
     <div className="text-skyColor">
       <p className="text-base text-secondaryColor">Hello!</p>
       <h1 className="text-4xl text-secondaryColor md:text-5xl">I&apos;m Iqra Aslam</h1>
