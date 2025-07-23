@@ -27,21 +27,13 @@ const ContactInfo = () => (
       </p>
       <div className="mt-4 md:w-1/5 md:mt-0">
         <h4 className="mb-4 text-2xl">Contacts</h4>
-        <a href="mailto: contact@thecodechaser.com" className="text-base text-skyColor hover:text-secondaryColor">ranjeetbuk96@gmail.com</a>
-        <a href="mailto: contact@thecodechaser.com" className="block mt-3 text-base text-skyColor hover:text-secondaryColor">contact@thecodechaser.com</a>
-        <a href="mailto: contact@thecodechaser.com" className="block mt-3 text-base text-skyColor hover:text-secondaryColor">admin@thecodechaser.com</a>
+        <a href="mailto: contact@thecodechaser.com" className="text-base text-skyColor hover:text-secondaryColor">hafizaiqraaslam1@gmail.com</a>
       </div>
       <div className="mt-4 md:w-1/5 md:mt-0">
         <h4 className="mb-4 text-2xl">Social Media</h4>
         <div className="flex gap-5">
-          <a aria-label="Save" target="_blank" href="https://github.com/thecodechaser" rel="noreferrer"><i className="text-3xl lab la-github text-skyColor hover:text-secondaryColor" /></a>
-          <a aria-label="Save" target="_blank" href="https://twitter.com/thecodechaser" rel="noreferrer"><i className="text-3xl lab la-twitter text-skyColor hover:text-secondaryColor" /></a>
-          <a aria-label="Save" target="_blank" href="https://www.linkedin.com/in/thecodechaser/" rel="noreferrer"><i className="text-3xl lab la-linkedin text-skyColor hover:text-secondaryColor" /></a>
-        </div>
-        <div className="flex gap-5 mt-4">
-          <a aria-label="Save" target="_blank" href="https://medium.com/@thecodechaser" rel="noreferrer"><i className="text-3xl lab la-medium text-skyColor hover:text-secondaryColor" /></a>
-          <a aria-label="Save" target="_blank" href="https://angel.co/u/thecodechaser" rel="noreferrer"><i className="text-3xl lab la-angellist text-skyColor hover:text-secondaryColor" /></a>
-          <a aria-label="Save" target="_blank" href="https://www.instagram.com/the_code_chaser/" rel="noreferrer"><i className="text-3xl lab la-instagram text-skyColor hover:text-secondaryColor" /></a>
+          <a aria-label="Save" target="_blank" href="https://github.com/Iqra1aAslam" rel="noreferrer"><i className="text-3xl lab la-github text-skyColor hover:text-secondaryColor" /></a>
+          <a aria-label="Save" target="_blank" href="https://www.linkedin.com/in/iqraaslam1" rel="noreferrer"><i className="text-3xl lab la-linkedin text-skyColor hover:text-secondaryColor" /></a>
         </div>
       </div>
     </div>

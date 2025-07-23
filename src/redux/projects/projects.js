@@ -8,19 +8,20 @@ import bookStore from '../../assets/images/projects/book-store.png';
 import budgetTracker from '../../assets/images/projects/budget-tracker.png';
 import trendify from '../../assets/images/projects/trendify.png';
 import taskMaster from '../../assets/images/projects/task-master.png';
-import formBuilder from '../../assets/images/projects/smart-form-builder.png';
+
+import chatbotApp from '../../assets/images/projects/chatbot.png';
 
 // initial-state
 const initialState = [
   {
     id: 0,
-    title: 'Smart Form Builder',
-    image: formBuilder,
+    title: 'ChatBot App',
+    image: chatbotApp,
     details:
-      'Smart Form Builder is a dynamic form creation tool that empowers users to design custom forms with ease. Users can add questions and options manually or via drag-and-drop. Each option can have follow-up questions, allowing for deeply nested, conditional logic. Whether creating simple surveys or complex decision trees.',
-    live: 'https://form-builder.thecodechaser.com',
-    github: 'https://github.com/thecodechaser/smart-form-builder',
-    tech: ['JavaScript', 'React', 'Redux', 'Tailwind'],
+      'This ChatBot app allows users to choose between AI-powered replies or manual review. It offers a real-time chat experience that feels like talking to a smart assistant. Users begin by selecting their gender, then choose their preferred chat mode, making the interaction more personalized. The app is live and designed to be simple, interactive, and user-friendly while combining AI with everyday usability.',
+    live: 'https://chat-bot-app-flax.vercel.app/',
+    github: 'https://github.com/Iqra1Aslam/chatBotApp',
+    tech: ['JavaScript', 'React', 'AIModel', 'Tailwind'],
   },
   {
     id: 1,
