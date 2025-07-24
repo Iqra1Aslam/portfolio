@@ -1,9 +1,6 @@
-
-
-import taskMaster from '../../assets/images/projects/task-master.png';
-
+import bookStore from '../../assets/images/projects/book-store.png';
 import chatbotApp from '../../assets/images/projects/chatbot.png';
-
+import Memes from '../../assets/images/projects/memes.png';
 // initial-state
 const initialState = [
   {
@@ -16,18 +13,26 @@ const initialState = [
     github: 'https://github.com/Iqra1Aslam/chatBotApp',
     tech: ['JavaScript', 'React', 'AIModel', 'Tailwind'],
   },
- 
   {
-    id: 2,
-    title: 'Task Master',
-    image: taskMaster,
+    id: 9,
+    title: 'MemeHome',
+    image: Memes,
     details:
-      'TaskMaster is a React-based task management application designed for efficient task organization. It offers full CRUD operations for creating, updating, and managing tasks. Users can track progress using a Kanban board with drag-and-drop functionality, making task management seamless and intuitive.',
-    live: 'https://task-master.thecodechaser.com',
-    github: 'https://github.com/thecodechaser/task-master',
-    tech: ['JavaScript', 'TypeScript', 'React', 'Tailwind'],
+      'This platform allows users to create, trade, and explore meme tokens on a decentralized blockchain (e.g., Solana) — with wallet login, on-chain interactions, and backend services for analytics, listing, and leaderboard-like features.',
+    live: 'https://memehome-io-ten.vercel.app/',
+    github: 'https://github.com/Iqra1Aslam/memehome.io',
+    tech: ['Rust', 'Anchor', 'Web3.js', 'Express', 'React'],
   },
-  
+  {
+    id: 10,
+    title: 'Book Store',
+    image: bookStore,
+    details:
+      'Book Store is a React-based web application that allows users to manage a personalized list of favorite books. Users can add and remove books from their collection with ease. Built using JavaScript and React libraries, the application provides a responsive and user-friendly interface for organizing book preferences efficiently.',
+    live: 'https://book-store.thecodechaser.com',
+    github: 'https://github.com/thecodechaser/book-store',
+    tech: ['React', 'Redux', 'HTML & CSS'],
+  },
 ];
 
 // reducer
