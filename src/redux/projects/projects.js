@@ -23,16 +23,16 @@ const initialState = [
     github: 'https://github.com/Iqra1Aslam/memehome.io',
     tech: ['Rust', 'Anchor', 'Web3.js', 'Express', 'React'],
   },
-  {
-    id: 10,
-    title: 'Book Store',
-    image: bookStore,
-    details:
-      'Book Store is a React-based web application that allows users to manage a personalized list of favorite books. Users can add and remove books from their collection with ease. Built using JavaScript and React libraries, the application provides a responsive and user-friendly interface for organizing book preferences efficiently.',
-    live: 'https://book-store.thecodechaser.com',
-    github: 'https://github.com/thecodechaser/book-store',
-    tech: ['React', 'Redux', 'HTML & CSS'],
-  },
+  // {
+  //   id: 10,
+  //   title: 'Book Store',
+  //   image: bookStore,
+  //   details:
+  //     'Book Store is a React-based web application that allows users to manage a personalized list of favorite books. Users can add and remove books from their collection with ease. Built using JavaScript and React libraries, the application provides a responsive and user-friendly interface for organizing book preferences efficiently.',
+  //   live: 'https://book-store.thecodechaser.com',
+  //   github: 'https://github.com/thecodechaser/book-store',
+  //   tech: ['React', 'Redux', 'HTML & CSS'],
+  // },
 ];
 
 // reducer
