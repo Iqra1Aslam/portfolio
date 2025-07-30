@@ -21,7 +21,7 @@ const initialState = [
     live: 'https://memehome-io-ten.vercel.app/',
     github: 'https://github.com/Iqra1Aslam/memehome.io',
     tech: ['Rust', 'Anchor', 'Web3.js', 'Express', 'React'],
-  }
+  },
 ];
 
 // reducer
