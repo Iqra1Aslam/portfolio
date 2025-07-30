@@ -32,7 +32,7 @@ const ContactInfo = () => (
       <div className="mt-4 md:w-1/5 md:mt-0">
         <h4 className="mb-4 text-2xl">Social Media</h4>
         <div className="flex gap-5">
-          <a aria-label="Save" target="_blank" href="https://github.com/Iqra1aAslam" rel="noreferrer"><i className="text-3xl lab la-github text-skyColor hover:text-secondaryColor" /></a>
+          <a aria-label="Save" target="_blank" href="https://github.com/Iqra1Aslam" rel="noreferrer"><i className="text-3xl lab la-github text-skyColor hover:text-secondaryColor" /></a>
           <a aria-label="Save" target="_blank" href="https://www.linkedin.com/in/iqraaslam1" rel="noreferrer"><i className="text-3xl lab la-linkedin text-skyColor hover:text-secondaryColor" /></a>
         </div>
       </div>
