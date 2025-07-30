@@ -1,4 +1,3 @@
-import bookStore from '../../assets/images/projects/book-store.png';
 import chatbotApp from '../../assets/images/projects/chatbot.png';
 import Memes from '../../assets/images/projects/memes.png';
 // initial-state
