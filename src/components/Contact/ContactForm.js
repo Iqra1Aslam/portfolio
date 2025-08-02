@@ -16,7 +16,15 @@ const ContactForm = () => {
   const [successNotice, setSuccessNotice] = useState(false);
 
   const navigate = useNavigate();
-
+   // Initialize EmailJS SDK once
+  useEffect(() => {
+    if (userId) {
+      emailjs.init(userId);
+    } else {
+      console.warn('EmailJS USER_ID is missing!');
+    }
+  }, [userId]);
+  
   const submission = () => {
     const pattern = /\S+@\S+\.\S+/;
 
@@ -42,7 +50,10 @@ const ContactForm = () => {
 
     console.log('📨 Sending email with the following data:', templateParams);
 
-    emailjs.send(serviceId, templateId, templateParams, userId);
+    // emailjs.send(serviceId, templateId, templateParams, userId);
+    const res = await emailjs.send(serviceId, templateId, templateParams);
+    console.log('✅ Email sent:', res.status, res.text);
+    
 
     setSuccessNotice(true);
     setTimeout(() => {
