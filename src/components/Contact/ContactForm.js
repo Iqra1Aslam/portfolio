@@ -40,6 +40,8 @@ const ContactForm = () => {
       message,
     };
 
+    console.log('📨 Sending email with the following data:', templateParams);
+
     emailjs.send(serviceId, templateId, templateParams, userId);
 
     setSuccessNotice(true);
