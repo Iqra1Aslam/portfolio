@@ -23,11 +23,6 @@ const Footer = () => (
       >
         <i className="las la-angle-up" />
       </button>
-      <p className="text-md">
-        Copyright © 2025
-        <a href="https://github.com/thecodechaser" className="text-secondaryColor"> Ranjeet Singh </a>
-        All Rights Reserved
-      </p>
     </footer>
   </>
 );
