@@ -13,7 +13,7 @@ const ContactForm = () => {
 
   const navigate = useNavigate();
 
-  const submission = async () => {
+  const submission = () => {
     const pattern = /\S+@\S+\.\S+/;
 
     if (name === '' || email === '' || message === '') {
@@ -37,7 +37,7 @@ const ContactForm = () => {
     };
     console.log('📨 Sending email with the following data:', templateParams);
 
-    // emailjs.send(serviceId, templateId, templateParams, userId);
+    emailjs.send(serviceId, templateId, templateParams, userId);
 
     // setSuccessNotice(true);
     // setTimeout(() => {
