@@ -12,8 +12,7 @@ const ContactForm = () => {
   const [successNotice, setSuccessNotice] = useState(false);
 
   const navigate = useNavigate();
-
-  const submission = async() => {
+  const submission = async () => {
     const pattern = /\S+@\S+\.\S+/;
 
     if (name === '' || email === '' || message === '') {
@@ -35,30 +34,26 @@ const ContactForm = () => {
       email,
       message,
     };
+
     console.log('📨 Sending email with the following data:', templateParams);
 
-    emailjs.send(serviceId, templateId, templateParams, userId);
-
-    // setSuccessNotice(true);
-    // setTimeout(() => {
-    //   navigate('../messageSent');
-    // }, 2000);
     try {
-    const response = await axios.post('https://portfolio-backend-wine-sigma.vercel.app/api/contact', templateParams);
+      const response = await axios.post(
+        'https://portfolio-backend-wine-sigma.vercel.app/api/contact',
+        templateParams,
+      );
 
-    if (response.data.ok) {
-      setSuccessNotice(true);
-      setTimeout(() => {
-        navigate('../messageSent');
-      }, 2000);
-    } else {
-      console.error('Server error:', response.data.error);
+      if (response.data.ok) {
+        setSuccessNotice(true);
+        setTimeout(() => {
+          navigate('../messageSent');
+        }, 2000);
+      } else {
+        console.error('Server error:', response.data.error);
+      }
+    } catch (error) {
+      console.error('Request failed:', error.message);
     }
-  } catch (error) {
-    console.error('Request failed:', error.message);
-  }
-
-
   };
 
   return (
