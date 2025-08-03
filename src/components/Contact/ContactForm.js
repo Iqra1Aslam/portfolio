@@ -13,7 +13,7 @@ const ContactForm = () => {
 
   const navigate = useNavigate();
 
-  const submission = () => {
+  const submission = async() => {
     const pattern = /\S+@\S+\.\S+/;
 
     if (name === '' || email === '' || message === '') {
