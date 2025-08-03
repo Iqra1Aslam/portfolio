@@ -50,6 +50,7 @@ const ContactInfo = () => (
       </Link>
     </div>
   </motion.div>
+
 );
 
 export default ContactInfo;

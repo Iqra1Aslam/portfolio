@@ -1,4 +1,3 @@
-import bookStore from '../../assets/images/projects/book-store.png';
 import chatbotApp from '../../assets/images/projects/chatbot.png';
 import Memes from '../../assets/images/projects/memes.png';
 // initial-state
@@ -22,7 +21,7 @@ const initialState = [
     live: 'https://memehome-io-ten.vercel.app/',
     github: 'https://github.com/Iqra1Aslam/memehome.io',
     tech: ['Rust', 'Anchor', 'Web3.js', 'Express', 'React'],
-  }
+  },
 ];
 
 // reducer
