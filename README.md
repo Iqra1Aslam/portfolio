@@ -2,7 +2,7 @@
 
 
 ## 🚀 Live Demo
-[View Portfolio**](https://portfolio-theta-rust-13.vercel.app/)  
+[View Portfolio](https://portfolio-theta-rust-13.vercel.app/)  
 _Deployed with Vercel for blazing-fast performance and seamless CI/CD._
 
 ---
@@ -26,7 +26,8 @@ _Deployed with Vercel for blazing-fast performance and seamless CI/CD._
 - API endpoints for dynamic data and contact form handling
 - Nodemailer integration for secure and reliable form submission via email
 - Real-time form validation and error handling
- 📂 Backend Source Code: [portfolio-backend](https://github.com/Iqra1Aslam/portfolio-backend)
+
+📂 Backend Source Code: [portfolio-backend](https://github.com/Iqra1Aslam/portfolio-backend)
 
 ---
 
