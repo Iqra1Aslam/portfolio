@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://thecodechaser.com",
+  "homepage": "https://portfolio-theta-rust-13.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
