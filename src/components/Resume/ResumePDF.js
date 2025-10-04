@@ -1,4 +1,4 @@
-import iqraPdf from '../../assets/data/IQRAASLAM.pdf';
+import iqraPdf from '../../assets/data/IqraAslam.pdf';
 
 const ResumePDF = () => (
   <div>
